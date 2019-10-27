@@ -1,0 +1,42 @@
+
+.cards {
+  margin-top: 20px;
+  display: grid;
+  text-align: center;
+
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+.nav-link:hover {
+
+  -webkit-transform: scale(1.025);
+  -ms-transform: scale(1.025);
+  transform: scale(1.025);
+  transition: 0.5s ease;
+  background-color: rgba(55, 175, 79, 0.1);
+
+}
+.card:hover {
+
+  -webkit-transform: scale(1.025);
+  -ms-transform: scale(1.025);
+  transform: scale(1.025);
+  transition: 0.5s ease;
+  background-color: rgba(55, 175, 79, 0.1);
+
+  .salary-color {
+    color: gray;
+  }
+}
+@media(max-width: 992px) {
+  .cards {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media(max-width: 768px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
+}
+
