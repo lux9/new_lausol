@@ -2,9 +2,26 @@
   width: 150px; height: auto;
 }
 
+.navbar-lausol {
+  background-color: transparent!important;
+  background: white;
+  transition: all 0.3s ease;
+  z-index: 100;
+  transition: 0.5s background-color ease;
+}
+.navbar-toggler-icon {
+  color: white;
+}
+.navbar-lausol-white {
+  background-color: rgb(52, 193, 237)!important;
+  box-shadow: 0 1px 5px 0 rgba(0,0,0,0.07),0 1px 0 0 rgba(0,0,0,0.03);
+
+}
+
 @media(max-width: 992px) {
   .lausol-logo {
-    width: 100px; height: auto;
+    width: 100px;
+    height: auto;
   };
   .nav-link {
     border-left: 0px!important;
