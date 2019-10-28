@@ -11,3 +11,26 @@
 // Your CSS partials
 @import "components/index";
 @import "pages/index";
+
+
+
+
+.normas-iso {
+  width: 400px;
+  height: auto;
+}
+@media(max-width: 992px) {
+ .normas-iso {
+  width: 350px;
+  height: auto;
+}
+}
+
+@media(max-width: 768px) {
+ .normas-iso {
+
+  width: 300px;
+  height: auto;
+}
+}
+
