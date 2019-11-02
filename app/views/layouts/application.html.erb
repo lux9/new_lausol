@@ -14,6 +14,10 @@
 </head>
 <body>
   <%= render 'shared/navbar' %>
+
+  <% if controller_name != 'pages' && action_name != 'home' %>
+  <div class="invisible-navbar" style="height: 100px;"></div>
+  <% end %>
   <%= render 'shared/flashes' %>
   <%= yield %>
   <%= render 'shared/footer' %>
