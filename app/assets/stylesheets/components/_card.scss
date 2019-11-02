@@ -31,3 +31,17 @@
     color: gray;
   }
 }
+
+.service-card:hover {
+
+  -webkit-transform: scale(1.025);
+  -ms-transform: scale(1.025);
+  transform: scale(1.025);
+  transition: 0.5s ease;
+  background-color: rgba(55, 175, 79, 0.1);
+
+  .salary-color {
+    color: gray;
+  }
+}
+

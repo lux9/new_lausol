@@ -30,35 +30,38 @@
       </div>
     </div>
   </nav> -->
- <nav id="navbar-lausol" class="navbar navbar-lausol navbar-expand-lg d-flex navbar-light justify-content-between bg-white pt-3 fixed-top" style="">
+  <nav id="navbar-lausol" class="navbar navbar-lausol navbar-expand-lg d-flex navbar-light justify-content-between bg-white pt-3 fixed-top" style="">
+    <a href="/">
+    <img src="http://www.cleanmanagers.com/images/logo.png" class="lausol-logo" alt="" style="margin-left: 100px"></a>
 
-  <img src="http://www.cleanmanagers.com/images/logo.png" class="lausol-logo" alt="" style="margin-left: 100px">
-
-  <div class="nav-info" style="margin-right: 100px">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse font-weight-bold" id="navbarNavDropdown">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link mx-1 border-left border-primary" href="#">INSTITUCIONAL<span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link mx-1 border-left border-primary" href="#">CALIDAD</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link mx-1 border-left border-primary" href="#">MEDIO AMBIENTE</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link mx-1 border-left border-primary" href="#">TRABAJA CON NOSOTROS</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link mx-1 border-left border-primary" href="#">QUE HACEMOS</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link mx-1 border-left border-primary border-right" href="#">CONTACTO</a>
-        </li>
-      </ul>
+    <div class="nav-info" style="margin-right: 100px">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse font-weight-bold" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <%= link_to "INSTITUCIONAL", institucional_index_path, class:"nav-link mx-1 border-left border-primary" %>
+          </li>
+          <li class="nav-item">
+            <%= link_to "CALIDAD", calidad_index_path, class:"nav-link mx-1 border-left border-primary" %>
+          </li>
+          <li class="nav-item">
+            <%= link_to "MEDIO AMBIENTE", medio_ambiente_index_path, class:"nav-link mx-1 border-left border-primary" %>
+          </li>
+          <li class="nav-item">
+            <%= link_to "TRABAJA CON NOSOTROS", trabaja_con_nosotros_path, class:"nav-link mx-1 border-left border-primary" %>
+          </li>
+          <li class="nav-item">
+            <%= link_to "QUE HACEMOS", que_hacemos_path, class:"nav-link mx-1 border-left border-primary" %>
+          </li>
+          <li class="nav-item">
+            <%= link_to "CONTACTO", contacto_index_path, class:"nav-link mx-1 border-left border-primary" %>
+          </li>
+          <li class="nav-item">
+            <%= link_to "LOGIN", new_user_session_path, class:"nav-link mx-1 border-left border-primary" %>
+          </li>
+        </ul>
+      </div>
     </div>
-  </div>
-</nav>
+  </nav>
