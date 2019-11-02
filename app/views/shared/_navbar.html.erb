@@ -30,7 +30,7 @@
       </div>
     </div>
   </nav> -->
-  <nav id="navbar-lausol" class="navbar navbar-lausol navbar-expand-lg d-flex navbar-light justify-content-between bg-white pt-3 fixed-top" style="">
+  <nav id="navbar-lausol" class="navbar navbar-expand-lg d-flex navbar-light justify-content-between bg-white pt-3 fixed-top <%= controller_name == 'pages' && action_name == 'home' ? 'navbar-lausol' : "navbar-lausol-white" %>" style="">
     <a href="/">
     <img src="http://www.cleanmanagers.com/images/logo.png" class="lausol-logo" alt="" style="margin-left: 100px"></a>
 
