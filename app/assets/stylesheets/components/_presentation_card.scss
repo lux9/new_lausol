@@ -1,0 +1,54 @@
+.presentation-card {
+  border-color: black;
+  border-width: 2px;
+}
+
+.presentation-content {
+  padding: 20px 38px;
+  background-color: #fff;
+}
+.presentation-title {
+  color: #393e4b;
+  font-weight: 500;
+  font-family: Poppins,sans-serif;
+  transition: all .4s ease;
+  text-decoration: none;
+  font-size: 23px;
+  line-height: 1.6;
+  letter-spacing: 0;
+  word-break: break-word;
+}
+
+.presentation-img {
+  img {
+    width: 100%;
+    overflow: hidden;
+  }
+}
+
+.presentation-description {
+  font-size: 14px;
+  color: #a6a6a6;
+  font-family: Poppins,sans-serif;
+  margin-bottom: 22px;
+  line-height: 2;
+}
+
+.presentation-card:hover {
+  -ms-transform: scale(1.025);
+  transform: scale(1.025);
+  transition: 0.5s ease;
+  .presentation-content {
+    box-shadow: 2px 1px 25px 5px rgba(166,166,166,.2);
+  }
+}
+
+.presentation-more-info {
+  font-size: 13px;
+  padding: 0 38px;
+  a {
+    color: #0063dd;
+    text-decoration: none;
+    font-weight: 800;
+  }
+}
