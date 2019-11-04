@@ -3,4 +3,15 @@ class PagesController < ApplicationController
 
   def home
   end
+  def contacto
+  end
+  def institucional
+  end
+  def medio_ambiente
+  end
+  def que_hacemos
+  end
+  def trabaja_con_nosotros
+  end
+
 end
