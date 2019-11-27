@@ -2,11 +2,12 @@ Rails.application.routes.draw do
   devise_for :users
   root to: 'pages#home'
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
-  resources :institucional, only: [:index]
-  resources :calidad, only: [:index]
-  resources :contacto, only: [:index]
-  resources :medio_ambiente, only: [:index]
-  resources :que_hacemos, only: [:index]
-  resources :trabaja_con_nosotros, only: [:index]
+
+  get 'institucional', to: 'pages#institucional'
+  get 'calidad', to: 'pages#calidad'
+  get 'contacto', to: 'pages#contacto'
+  get 'medio_ambiente', to: 'pages#medio_ambiente'
+  get 'trabaja_con_nosotros', to: 'pages#trabaja_con_nosotros'
+  get 'que_hacemos', to: 'pages#que_hacemos'
 
 end

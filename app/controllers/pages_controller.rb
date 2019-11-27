@@ -1,17 +1,6 @@
 class PagesController < ApplicationController
-  skip_before_action :authenticate_user!, only: [:home]
+  skip_before_action :authenticate_user!, only: [:home, :contacto, :calidad, :institucional, :medio_ambiente, :que_hacemos, :trabaja_con_nosotros]
 
   def home
   end
-  def contacto
-  end
-  def institucional
-  end
-  def medio_ambiente
-  end
-  def que_hacemos
-  end
-  def trabaja_con_nosotros
-  end
-
 end
