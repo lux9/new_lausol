@@ -3,4 +3,9 @@ class PagesController < ApplicationController
 
   def home
   end
+  def dictionary
+    @words = Dictionary.all
+  end
+  def create_words
+  end
 end

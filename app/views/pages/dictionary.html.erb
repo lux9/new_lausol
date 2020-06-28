@@ -1,0 +1,14 @@
+<h1>HELLO WORLD</h1>
+
+<a href="/dictionary">REFRESH</a>
+<%= link_to "create_words", create_words_path %>
+<br>
+<%= @words.count %>
+<ol>
+  <% @words.each do |word| %>
+    <li>length: <%= word.word.length %> word: <%= word.word %></li>
+  <% end %>
+</ol>
+
+
+
