@@ -19,4 +19,11 @@ class PagesController < ApplicationController
     redirect_to dictionary_path
 
   end
+
+  def contacto; end
+  def institucional; end
+  def medio_ambiente; end
+  def que_hacemos; end
+  def trabaja_con_nosotros; end
+
 end
